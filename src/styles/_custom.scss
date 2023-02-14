@@ -1,0 +1,156 @@
+.wallet-adapter-button {
+    background-color: transparent !important;
+    font-family: $font-main !important;
+    text-transform: uppercase;
+    border: 1px solid #0fdc82 !important;
+    font-size: 14px !important;
+    padding: 8px 13px !important;
+    height: 36px !important;
+    border-radius: 100px !important;
+    font-weight: 500 !important;
+    background-color: #1e1e1e !important;
+}
+.wallet-adapter-modal-list .wallet-adapter-button {
+    border-color: transparent !important;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    .count-item {
+        p {
+            font-family: "Archivo";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 11px;
+            text-align: center;
+            color: #fff;
+        }
+        h5 {
+            font-family: "Archivo";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            margin-top: 2px;
+            color: #ffffff;
+        }
+    }
+}
+
+.progress-bar {
+    width: 100%;
+    height: 9px;
+    background-color: #dbffed;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    .bar {
+        background: #0fdc82;
+        height: 9px;
+    }
+}
+.MuiDialog-paper {
+    background-color: transparent !important;
+}
+.MuiDialog-container {
+    backdrop-filter: blur(6px) !important;
+}
+.mission-claim-modal {
+    width: 1080px;
+    .back-btn {
+        position: absolute;
+        right: 24px;
+        top: 24px;
+    }
+    .modal-content {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-box-content {
+        background: #1e1e1e !important;
+    }
+}
+
+.question-mark {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 139px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    width: 172px;
+    height: 172px;
+    border-radius: 50%;
+    background-color: #a5f9cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discorver-rewards {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid #0fdc82;
+    border-radius: 50px;
+    padding: 7px 12px;
+    background-color: transparent;
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background-color: #0fdc82;
+        color: #1e1e1e;
+    }
+}
+
+.pounch-rewrad {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .icon {
+        width: 140px;
+        height: 140px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 50%;
+        background-color: #a5f9cf;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 76px;
+        }
+    }
+    p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 14px;
+        margin-bottom: 28px;
+        span {
+            color: #0fdc82;
+        }
+    }
+    button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 8px 16px;
+        background-color: transparent;
+        border: 1px solid #0fdc82;
+        border-radius: 50px;
+    }
+}
